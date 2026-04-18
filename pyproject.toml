@@ -1,19 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "django-mobile-money"
 version = "0.1.0"
-description = "Add your description here"
+description = "Django reusable package for African mobile money payments (Wave, Orange Money, MTN MoMo, Moov Money)"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "django>=6.0.4",
-    "requests>=2.33.1",
-]
+license = "MIT"
+authors = [{name = "OURA KONAN ROMEO", email = "romeo.oura@example.com"}]
+keywords = ["django", "mobile money", "wave", "orange money", "mtn momo", "moov money", "africa", "payment"]
+classifiers = ["Framework :: Django", "Framework :: Django :: 4.2", "Framework :: Django :: 5.0", "Programming Language :: Python :: 3.10", "Programming Language :: Python :: 3.11", "Programming Language :: Python :: 3.12"]
+requires-python = ">=3.10"
+dependencies = ["Django>=4.2", "requests>=2.31"]
+
+[tool.setuptools.packages.find]
+include = ["django_mobile_money*"]
+exclude = ["sandbox*", "tests*", "docs*"]
+
+[project.urls]
+Homepage = "https://github.com/oura02/django-mobile-money"
+Repository = "https://github.com/oura02/django-mobile-money"
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
 
 [dependency-groups]
-dev = [
-    "build>=1.4.3",
-    "coverage>=7.13.5",
-    "pytest>=9.0.3",
-    "pytest-django>=4.12.0",
-    "twine>=6.2.0",
-]
+dev = ["pytest>=8.0", "pytest-django>=4.8", "coverage>=7.0", "build>=1.0", "twine>=5.0"]
