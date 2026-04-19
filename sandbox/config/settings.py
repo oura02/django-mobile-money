@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_mobile_money",
 ]
 
 MIDDLEWARE = [
@@ -115,3 +116,25 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = "static/"
+
+MOBILE_MONEY = {
+    "DEFAULT_BACKEND": "wave",
+    "WAVE": {
+        "API_KEY": "test-key",
+        "SANDBOX": True,
+    },
+    "ORANGE_MONEY": {
+        "CLIENT_ID": "test-id",
+        "CLIENT_SECRET": "test-secret",
+    },
+    "MTN_MOMO": {
+        "SUBSCRIPTION_KEY": "test-key",
+        "ENVIRONMENT": "sandbox",
+    },
+    "MOOV_MONEY": {
+        "USERNAME": "test",
+        "PASSWORD": "test",
+        "PARTNER_ID": "test",
+        "SANDBOX": True,
+    },
+}
