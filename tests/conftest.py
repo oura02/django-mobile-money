@@ -1,4 +1,3 @@
-import django
 from django.conf import settings
 
 
@@ -19,24 +18,12 @@ def pytest_configure():
         },
         MOBILE_MONEY={
             "DEFAULT_BACKEND": "wave",
-            "WAVE": {
-                "API_KEY": "test-api-key",
-                "SANDBOX": True,
-            },
-            "ORANGE_MONEY": {
-                "CLIENT_ID": "test-client-id",
-                "CLIENT_SECRET": "test-secret",
-                "SANDBOX": True,
-            },
-            "MTN_MOMO": {
-                "SUBSCRIPTION_KEY": "test-sub-key",
-                "ENVIRONMENT": "sandbox",
-            },
-            "MOOV_MONEY": {
-                "USERNAME": "test-user",
-                "PASSWORD": "test-pass",
-                "PARTNER_ID": "test-partner",
-                "SANDBOX": True,
-            },
+            "WAVE": {"API_KEY": "test-key", "SANDBOX": True},
+            "ORANGE_MONEY": {"CLIENT_ID": "test-id", "CLIENT_SECRET": "test-secret"},
+            "MTN_MOMO": {"SUBSCRIPTION_KEY": "test-key", "ENVIRONMENT": "sandbox"},
+            "MOOV_MONEY": {"USERNAME": "test", "PASSWORD": "test", "PARTNER_ID": "test", "SANDBOX": True},
+            "AIRTEL_MONEY": {"CLIENT_ID": "test-id", "CLIENT_SECRET": "test-secret", "COUNTRY": "CI", "SANDBOX": True},
+            "FREE_MONEY": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "SANDBOX": True},
+            "MPESA": {"CONSUMER_KEY": "test-key", "CONSUMER_SECRET": "test-secret", "SHORTCODE": "123456", "PASSKEY": "test-pass", "SANDBOX": True},
         },
     )
