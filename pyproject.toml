@@ -1,10 +1,10 @@
-[build-system]
+﻿[build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-mobile-money"
-version = "0.2.0"
+version = "0.3.0"
 description = "Django reusable package for African mobile money payments (Wave, Orange Money, MTN MoMo, Moov Money)"
 readme = "README.md"
 license = "MIT"
