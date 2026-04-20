@@ -5,6 +5,9 @@ from .moov_money import MoovMoneyBackend
 from .airtel_money import AirtelMoneyBackend
 from .free_money import FreeMoneyBackend
 from .mpesa import MPesaBackend
+from .wizall_money import WizallMoneyBackend
+from .celtiis_cash import CeltiisCashBackend
+from .yas_money import YASMoneyBackend
 
 BACKENDS: dict = {
     "wave":         WaveBackend,
@@ -14,6 +17,9 @@ BACKENDS: dict = {
     "airtel_money": AirtelMoneyBackend,
     "free_money":   FreeMoneyBackend,
     "mpesa":        MPesaBackend,
+    "wizall_money": WizallMoneyBackend,
+    "celtiis_cash": CeltiisCashBackend,
+    "yas_money":    YASMoneyBackend,
 }
 
 __all__ = [
@@ -25,4 +31,7 @@ __all__ = [
     "AirtelMoneyBackend",
     "FreeMoneyBackend",
     "MPesaBackend",
+    "WizallMoneyBackend",
+    "CeltiisCashBackend",
+    "YASMoneyBackend",
 ]

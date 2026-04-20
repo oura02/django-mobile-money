@@ -25,5 +25,8 @@ def pytest_configure():
             "AIRTEL_MONEY": {"CLIENT_ID": "test-id", "CLIENT_SECRET": "test-secret", "COUNTRY": "CI", "SANDBOX": True},
             "FREE_MONEY": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "SANDBOX": True},
             "MPESA": {"CONSUMER_KEY": "test-key", "CONSUMER_SECRET": "test-secret", "SHORTCODE": "123456", "PASSKEY": "test-pass", "SANDBOX": True},
+            "WIZALL_MONEY": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "SANDBOX": True},
+            "CELTIIS_CASH": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "COUNTRY": "BJ", "SANDBOX": True},
+            "YAS_MONEY": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "SANDBOX": True},
         },
     )

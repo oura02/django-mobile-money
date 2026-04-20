@@ -2,11 +2,6 @@ default_app_config = "django_mobile_money.apps.DjangoMobileMoneyConfig"
 
 
 def pay(phone: str, amount, backend: str = None, **kwargs) -> dict:
-    """
-    Fonction raccourci — utilisation en 1 ligne :
-        from django_mobile_money import pay
-        result = pay(phone="+22507XXXXXXXX", amount=5000, backend="wave")
-    """
     from django.conf import settings
     from .backends import BACKENDS
 
