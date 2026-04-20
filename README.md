@@ -4,12 +4,12 @@
 
 [![PyPI version](https://badge.fury.io/py/django-mobile-money.svg)](https://badge.fury.io/py/django-mobile-money)
 [![Tests](https://github.com/oura02/django-mobile-money/actions/workflows/tests.yml/badge.svg)](https://github.com/oura02/django-mobile-money/actions)
-[![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen)](https://github.com/oura02/django-mobile-money)
+[![Coverage](https://img.shields.io/badge/coverage-90%25-brightgreen)](https://github.com/oura02/django-mobile-money)
 [![Python](https://img.shields.io/pypi/pyversions/django-mobile-money)](https://pypi.org/project/django-mobile-money/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://img.shields.io/pypi/dm/django-mobile-money)](https://pypi.org/project/django-mobile-money/)
 
-> Package Django reusable pour les paiements Mobile Money africains.
+> Package Django reusable pour les paiements Mobile Money africains. Version stable 1.0.0
 > Integrez Wave, Orange Money, MTN MoMo et Moov Money en 3 lignes de code.
 
 ## Backends supportes

@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 project   = 'django-mobile-money'
 copyright = '2026, OURA KONAN ROMEO'
 author    = 'OURA KONAN ROMEO'
-release   = '0.8.0'
+release   = '1.0.0'
 
 extensions = [
     'sphinx.ext.autodoc',

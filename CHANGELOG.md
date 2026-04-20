@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.0] - 2026-04-20
+### Version stable officielle
+- 13 backends Mobile Money africains
+- Wave, Orange Money, MTN MoMo, Moov Money
+- Airtel Money, Free Money, M-Pesa
+- Wizall Money, Celtiis Cash, YAS Money
+- CinetPay, Sama Money, Ecobank
+- 79 tests passing
+- 90% coverage
+- Documentation complète ReadTheDocs
+- Admin Django intégré
+- Signals, Webhooks, TemplateTags
+
 ## [0.4.0] - 2026-04-20
 ### Ajouté
 - Coverage 92% — tests complets sur tous les modules
@@ -30,3 +43,4 @@
 - Backend MTN MoMo CI/GH/CM/BJ/SN/UG
 - Backend Moov Money CI/BJ/TG/BF/ML/NE
 - 26 tests passing
+
