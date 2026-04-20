@@ -8,6 +8,9 @@ from .mpesa import MPesaBackend
 from .wizall_money import WizallMoneyBackend
 from .celtiis_cash import CeltiisCashBackend
 from .yas_money import YASMoneyBackend
+from .cinetpay import CinetPayBackend
+from .sama_money import SamaMoneyBackend
+from .ecobank import EcobankBackend
 
 BACKENDS: dict = {
     "wave":         WaveBackend,
@@ -20,6 +23,9 @@ BACKENDS: dict = {
     "wizall_money": WizallMoneyBackend,
     "celtiis_cash": CeltiisCashBackend,
     "yas_money":    YASMoneyBackend,
+    "cinetpay":     CinetPayBackend,
+    "sama_money":   SamaMoneyBackend,
+    "ecobank":      EcobankBackend,
 }
 
 __all__ = [
@@ -34,4 +40,7 @@ __all__ = [
     "WizallMoneyBackend",
     "CeltiisCashBackend",
     "YASMoneyBackend",
+    "CinetPayBackend",
+    "SamaMoneyBackend",
+    "EcobankBackend",
 ]

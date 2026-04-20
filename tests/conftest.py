@@ -28,5 +28,8 @@ def pytest_configure():
             "WIZALL_MONEY": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "SANDBOX": True},
             "CELTIIS_CASH": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "COUNTRY": "BJ", "SANDBOX": True},
             "YAS_MONEY": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "SANDBOX": True},
+            "CINETPAY":   {"API_KEY": "test-key", "SITE_ID": "test-site", "SANDBOX": True},
+            "SAMA_MONEY": {"API_KEY": "test-key", "MERCHANT_ID": "test-merchant", "SANDBOX": True},
+            "ECOBANK":    {"CLIENT_ID": "test-id", "CLIENT_SECRET": "test-secret", "MERCHANT_ID": "test-merchant", "COUNTRY": "CI", "SANDBOX": True},
         },
     )
