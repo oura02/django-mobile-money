@@ -1,5 +1,7 @@
 # django-mobile-money
 
+[![Documentation](https://readthedocs.org/projects/django-mobile-money/badge/?version=latest)](https://django-mobile-money.readthedocs.io/fr/latest/)
+
 [![PyPI version](https://badge.fury.io/py/django-mobile-money.svg)](https://badge.fury.io/py/django-mobile-money)
 [![Tests](https://github.com/oura02/django-mobile-money/actions/workflows/tests.yml/badge.svg)](https://github.com/oura02/django-mobile-money/actions)
 [![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen)](https://github.com/oura02/django-mobile-money)
